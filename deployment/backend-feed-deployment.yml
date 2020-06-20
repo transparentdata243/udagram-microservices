@@ -42,7 +42,7 @@ spec:
             - name: JWT_SECRET
               valueFrom:
                 configMapKeyRef:
-                  name: env-config
+                  name: env-secret
                   key: JWT_SECRET
           resources:
             requests:
