@@ -41,7 +41,7 @@ spec:
                   key: POSTGRES_DATABASE
             - name: JWT_SECRET
               valueFrom:
-                configMapKeyRef:
+                secretKeyRef:
                   name: env-secret
                   key: JWT_SECRET
           resources:
